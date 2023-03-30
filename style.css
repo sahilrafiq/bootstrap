@@ -1,13 +1,113 @@
 #title{
     background-color: black;
+    color: white;
 }
-.devil{
-    height: 100px;
-    width: 100px;
-}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
 .container-fluid{
-    padding: 3% 15%;
+padding: 10px 20PX 10PX 10px;
+}
+
+#features{
+    padding: 7% 15%;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+}
+.btn:hover {
+    background: #ed1d1d;
+    background-image: -webkit-linear-gradient(top, #ed1d1d, #09090a);
+    background-image: -moz-linear-gradient(top, #ed1d1d, #09090a);
+    background-image: -ms-linear-gradient(top, #ed1d1d, #09090a);
+    background-image: -o-linear-gradient(top, #ed1d1d, #09090a);
+    background-image: linear-gradient(to bottom, #ed1d1d, #09090a);
+    text-decoration: none;
+}  
+p{
+    color: #8f8f8f;
+}
+.icon{
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ed1d1d;
+}
+#testimonials{
+    text-align:center;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 33%, rgba(215,27,27,1) 100%);
+    color: #ffff;
+    font-family:'JetBrains Mono', monospace;
+}
+.anime{
+    width: 40%;
+    height: 35%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+.btn1:hover{
+    background-color: #ed1d1d;
+
+}
+.bottom-container{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 33%, rgba(215,27,27,1) 100%);
+    color: #ffff;
+    margin-top: 20px;
+    padding: 10px 0 10px;
+    text-align: center;
+    text-decoration: none;
+}
+a{
+    color: #ffffff;
+    font-family: 'JetBrains Mono';
+    margin: auto 10px auto 10px;
+    text-decoration: none;
+}
+a:hover{
+    color:#ed1d1d;
+}
+.btn2 {
+    background: #ff0004;
+    background-image: -webkit-linear-gradient(top, #ff0004, #000000);
+    background-image: -moz-linear-gradient(top, #ff0004, #000000);
+    background-image: -ms-linear-gradient(top, #ff0004, #000000);
+    background-image: -o-linear-gradient(top, #ff0004, #000000);
+    background-image: linear-gradient(to bottom, #ff0004, #000000);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn2:hover {
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #eb1111);
+    background-image: -moz-linear-gradient(top, #000000, #eb1111);
+    background-image: -ms-linear-gradient(top, #000000, #eb1111);
+    background-image: -o-linear-gradient(top, #000000, #eb1111);
+    background-image: linear-gradient(to bottom, #000000, #eb1111);
+    text-decoration: none;
+  }
+  .contact-me{
+    text-align: center;
+  }
+  .card-deck {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
