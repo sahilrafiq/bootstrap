@@ -60,8 +60,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 33%, rgba(215,27,27,1) 100%);
     background: rgb(0,0,0);
 background: linear-gradient(90deg, rgba(0,0,0,1) 33%, rgba(215,27,27,1) 100%);
     color: #ffff;
-    margin-top: 20px;
-    padding: 10px 0 10px;
+    padding: 30px 0 10px;
     text-align: center;
     text-decoration: none;
 }
@@ -117,6 +116,7 @@ a:hover{
 #pricing{
     padding-top: 4%;
     text-align: center;
+    padding-bottom: 5%;
 }
 .card-img-top{
     height: 12%;
@@ -125,4 +125,24 @@ a:hover{
 }
 .card-body{
     padding: 10%;
+}
+.devil{
+    justify-content: center;
+}
+@media (max-width:1028px){
+    .devil{
+        position: static;
+    }
+}
+#cta{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 33%, rgba(215,27,27,1) 100%);
+    color: #ffff;
+    margin:0;
+    padding: 10px 0 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.social{
+    margin: 5px 5px;
 }
