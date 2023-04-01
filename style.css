@@ -1,26 +1,68 @@
-#title{
-    background-color: black;
-    color: white;
-}
+/* html tags */
 
 body{
     font-family: 'Roboto', sans-serif;
-}
-.container-fluid{
-padding: 10px 20PX 10PX 10px;
-}
-
-#features{
-    padding: 7% 15%;
-}
-.feature-box{
-    text-align: center;
-    padding: 5%;
 }
 h3{
     font-family: 'JetBrains Mono', monospace;
     font-weight: bold;
 }
+p{
+    color: #8f8f8f;
+}
+a{
+    color: #ffffff;
+    font-family: 'JetBrains Mono';
+    margin: auto 10px auto 10px;
+    text-decoration: none;
+}
+a:hover{
+    color:#ed1d1d;
+}
+
+/* ID */
+
+#title{
+    background-color: black;
+    color: white;
+}
+#features{
+    padding: 7% 15%;
+}
+#testimonials{
+    text-align:center;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 33%, rgba(215,27,27,1) 100%);
+    color: #ffff;
+    font-family:'JetBrains Mono', monospace;
+}
+#pricing{
+    padding-top: 4%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+#cta{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 33%, rgba(215,27,27,1) 100%);
+    color: #ffff;
+    margin:0;
+    padding: 10px 0 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* class */
+
+.container-fluid{
+padding: 10px 20PX 10PX 10px;
+}
+
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
 .btn:hover {
     background: #ed1d1d;
     background-image: -webkit-linear-gradient(top, #ed1d1d, #09090a);
@@ -30,22 +72,14 @@ h3{
     background-image: linear-gradient(to bottom, #ed1d1d, #09090a);
     text-decoration: none;
 }  
-p{
-    color: #8f8f8f;
-}
+
 .icon{
     margin-bottom: 1rem;
 }
 .icon:hover{
     color: #ed1d1d;
 }
-#testimonials{
-    text-align:center;
-    background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 33%, rgba(215,27,27,1) 100%);
-    color: #ffff;
-    font-family:'JetBrains Mono', monospace;
-}
+
 .anime{
     width: 30%;
     height: 25%;
@@ -64,15 +98,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 33%, rgba(215,27,27,1) 100%);
     text-align: center;
     text-decoration: none;
 }
-a{
-    color: #ffffff;
-    font-family: 'JetBrains Mono';
-    margin: auto 10px auto 10px;
-    text-decoration: none;
-}
-a:hover{
-    color:#ed1d1d;
-}
+
 .btn2 {
     background: #ff0004;
     background-image: -webkit-linear-gradient(top, #ff0004, #000000);
@@ -113,11 +139,7 @@ a:hover{
 .text{
     text-align: center;
 }
-#pricing{
-    padding-top: 4%;
-    text-align: center;
-    padding-bottom: 5%;
-}
+
 .card-img-top{
     height: 12%;
     width: 12%;
@@ -134,15 +156,7 @@ a:hover{
         position: static;
     }
 }
-#cta{
-    background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 33%, rgba(215,27,27,1) 100%);
-    color: #ffff;
-    margin:0;
-    padding: 10px 0 10px;
-    text-align: center;
-    text-decoration: none;
-}
+
 .social{
     margin: 5px 5px;
 }
